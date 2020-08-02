@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "imagen": "https://i.ibb.co/gMg8K1x/m5.jpg",
+      "titulo1": "SOMOS FRANKLIN",
+      "titulo2": "DISEÑOS Y ESTILOS UNICOS",
+      "button": "Click aqui"
+    },
+    {
+      "id": 2,
+      "imagen": "https://i.ibb.co/hL7dc10/m3.jpg",
+      "titulo1": "CONOCES NUESTROS",
+      "titulo2": "SERVICIOS",
+      "button": "Click aqui"
+    },
+    {
+      "id": 3,
+      "imagen": "https://i.ibb.co/kQjPGBG/m4.jpg",
+      "titulo1": "CONOCE NUESTRO",
+      "titulo2": "COTIZADOR ONLINE",
+      "button": "Click aqui"
+    },
+    {
+      "id": 4,
+      "imagen": "https://i.ibb.co/RPv88KF/show2.jpg",
+      "titulo1": "CONOCE NUESTROS",
+      "titulo2": "PRODUCTOS",
+      "button": "Click aqui"
+    }
+ ]

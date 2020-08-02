@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "imagen": "https://i.ibb.co/WBBfbMj/madera1.jpg",
+      "descripcion": "Madera liviana y blanda, de color castaño oscuro, con suaves vetas. Muy atractiva en el sector de la construcción, mueblería, acabados interiores y exteriores y carpintería engeneral.",
+      "titulo" :"Laurel"
+    },
+    {
+      "id": 2,
+      "imagen": "https://i.ibb.co/ccnzmRy/madera2.jpg",
+      "descripcion": "Textura fina con veteado profundo de blanco a cremoso. Madera dura semipesada, por su particular y exótica belleza nunca pasa desapercibida. Actualmente utilizada en la decoración de interiores y revestimientos para exterior",
+      "titulo" :"Guayubira"
+    },
+    {
+      "id": 3,
+      "imagen": "https://i.ibb.co/4YGVXmx/madera3.jpg",
+      "descripcion": "De color amarillo pálido a marrón, con bonitas tonalidades y veteado, semidura y durable. Se utiliza en mobiliario, carpintería de interior y exterior,  postes, vallados y embarcaciones.",
+      "titulo" :"Cipres"
+    },
+    {
+      "id": 4,
+      "imagen": "https://i.ibb.co/4PCXkdf/madera4.jpg",
+      "descripcion": "El color de la madera es esencialmente claro. Es pricipalmente utilizado en mobiliario de interior. En algún caso también de exterior. Carpintería y revestimientos de interior. tambien en la fabricación de vehículos.",
+      "titulo" :"Fresno"
+    },
+    {
+      "id": 5,
+      "imagen": "https://i.ibb.co/1nFFVVK/madera5.jpg",
+      "descripcion": "Con un característico coloreado oscuro, es una madera semidura utilizada en muebles, ebanisteria, pisos y en carpinteria de interior y exterior.",
+      "titulo" :"Wengue"
+    },
+    {
+      "id": 6,
+      "imagen": "https://i.ibb.co/gWRY1S5/madera6.jpg",
+      "descripcion": "Blanco: Color crema y marron palido, utilidad en muebles finos de interior. Rojo: De color marrón claro con ligeras líneas rojizas. Utilizado en muebles rústicos de interior y exterior. Europeo: del amarillo claro hasta el marrón, utilidad en muebles rústicos de interior y exterior.",
+      "titulo" :"Roble"
+    },
+    {
+      "id": 7,
+      "imagen": "https://i.ibb.co/ccnzmRy/madera2.jpg",
+      "descripcion": "Es una madera blanda de tono claro blanco cremoso y sus vetas pueden variar de color marrón amarillento a verde oliva. Su mayor utilidad es en sillas, molduras y muebles en general.",
+      "titulo" :"Alamo"
+    },
+    {
+      "id": 8,
+      "imagen": "https://i.ibb.co/WkrLp8m/madera7.jpg",
+      "descripcion": "Color desde el naranja con tonos rosas a un marrón rojizo. Madera blanda utilizada principalmente en chapas de madera y tableros contrachapados.",
+      "titulo" :"Paraiso"
+    },
+    {
+      "id": 9,
+      "imagen": "https://i.ibb.co/jZbp5Wx/madera9.jpg",
+      "descripcion": "De color marrón pálido, casi amarillo y sus vetas color claro o gris pálido. Es una madera semidura de gran resistencia, apta para exteriores. Rostrata: Madera dura de color blanco crema y castaño rojizo De gran utilidad en carpintería tanto de interior como de exterior.",
+      "titulo" :"Eucalipto"
+    },
+    {
+      "id": 10,
+      "imagen": "https://i.ibb.co/MDtxHkN/madera10.jpg",
+      "descripcion": "Madera blanda, blanco mate y veteado leve. Utilizada generalmente en mubleria y techos.",
+      "titulo" :"Pino Parana"
+    },
+    {
+      "id": 11,
+      "imagen": "https://i.ibb.co/rGSt5H5/madera11.jpg",
+      "descripcion": "Madera dura, pesada, color marrón claro a oscuro, a veces con tonos verdes y de color muy agradable y caracteristico. De gran utilidad en pisos y escalones en eterior, tambien utilizada en estantes repisas y mesas.",
+      "titulo" :"Incienso"
+    },
+    {
+      "id": 12,
+      "imagen": "https://i.ibb.co/G05HZ6Y/madera12.jpg",
+      "descripcion": "De color marrón claro a color chocolate oscuro, sus vetas pueden tener tonalidades grisáceas e incluso amarillas. Madera semipesada, utilizada en la fabricación de mobiliario de calidad y ebanistería, suelos y Carpintería de interior",
+      "titulo" :"Nogal"
+    },
+    {
+      "id": 13,
+      "imagen": "https://i.ibb.co/kxWndbw/madera13.jpg",
+      "descripcion": "Es una madera semidura de color blanco amarillento a blanco anaranjado. Utilizada en muebles finos de interior.",
+      "titulo" :"Abedul"
+    },
+    {
+      "id": 14,
+      "imagen": "https://i.ibb.co/4pQfwZk/madera14.jpg",
+      "descripcion": "Color rojo pálido y albura más clara, semidura con usos en muebles de calidad, parquet y escaleras.",
+      "titulo" :"Arce"
+    },
+    {
+      "id": 15,
+      "imagen": "https://i.ibb.co/8DRgfbS/madera15.jpg",
+      "descripcion": "La madera va del rosado claro al amarillo y del amarillo hasta el marrón rojizo. Es blanda y muy utilizada tanto en la fabricación de mobiliario de interior y exterior como de embarcaciones.",
+      "titulo" :"Cedro"
+    },
+    {
+      "id": 16,
+      "imagen": "https://i.ibb.co/4sy2GH7/madera16.jpg",
+      "descripcion": "Color de castaño amarillo a rosado. Madera dura utilizada principalmente en escalones y pisos de ambientes interiores, estantes y repisas.",
+      "titulo" :"Vivaro"
+    },
+    {
+      "id": 17,
+      "imagen": "https://i.ibb.co/3zkmbcV/madera17.jpg",
+      "descripcion": "De atractivo color rosado y semidura es utilizada en muebles y ebanistería fina de interior.",
+      "titulo" :"lenga"
+    },
+    {
+      "id": 18,
+      "imagen": "https://i.ibb.co/X8hNdmW/madera18.jpg",
+      "descripcion": "Color blanco crema, semidura. Su uso se ve generalmente en puertas, ventanas, estantes y repisas.",
+      "titulo" :"Petiribi"
+    },
+    {
+      "id": 19,
+      "imagen": "https://i.ibb.co/9bjtTPM/madera19.jpg",
+      "descripcion": "Se destaca por su uso en exteriores. Madera semidura de color amarillo claro, presenta tonos marrones y dorados.",
+      "titulo" :"Teca"
+    },
+    {
+      "id": 20,
+      "imagen": "https://i.ibb.co/6rK76n8/madera20.jpg",
+      "descripcion": "Madera blanda, de color castaño amarillento a ocre. Con utilidad para la fabricación de muebles, revestimientos y carpintería en general.",
+      "titulo" :"Cerejeira"
+    },
+    {
+      "id": 21,
+      "imagen": "https://i.ibb.co/fNRJm7B/madera21.jpg",
+      "descripcion": " Con colores que van de un marrón amarillento a uno oscuro, muy dura, usada en la fabricación de embarcaciones y en carpinteria de interior y exterior.",
+      "titulo" :"Lapacho"
+    },
+    {
+      "id": 22,
+      "imagen": "https://i.ibb.co/mqm6Bjp/madera22.jpg",
+      "descripcion": "Con un color ocre rosado, colorado oscuro, muy dura. Excelente para exteriores.",
+      "titulo" :"Anchico"
+    }
+]
+

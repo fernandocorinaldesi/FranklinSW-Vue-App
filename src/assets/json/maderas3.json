@@ -1,0 +1,38 @@
+[
+  {
+    "id": 13,
+    "imagen": "https://i.ibb.co/kxWndbw/madera13.jpg",
+    "descripcion": "Es una madera semidura de color blanco amarillento a blanco anaranjado. Utilizada en muebles finos de interior.",
+    "titulo": "Abedul"
+  },
+  {
+    "id": 14,
+    "imagen": "https://i.ibb.co/4pQfwZk/madera14.jpg",
+    "descripcion": "Color rojo pálido y albura más clara, semidura con usos en muebles de calidad, parquet y escaleras.",
+    "titulo": "Arce"
+  },
+  {
+    "id": 15,
+    "imagen": "https://i.ibb.co/8DRgfbS/madera15.jpg",
+    "descripcion": "La madera va del rosado claro al amarillo y del amarillo hasta el marrón rojizo. Es blanda y muy utilizada tanto en la fabricación de mobiliario de interior y exterior como de embarcaciones.",
+    "titulo": "Cedro"
+  },
+  {
+    "id": 16,
+    "imagen": "https://i.ibb.co/4sy2GH7/madera16.jpg",
+    "descripcion": "Color de castaño amarillo a rosado. Madera dura utilizada principalmente en escalones y pisos de ambientes interiores, estantes y repisas.",
+    "titulo": "Vivaro"
+  },
+  {
+    "id": 17,
+    "imagen": "https://i.ibb.co/3zkmbcV/madera17.jpg",
+    "descripcion": "De atractivo color rosado y semidura es utilizada en muebles y ebanistería fina de interior.",
+    "titulo": "lenga"
+  },
+  {
+    "id": 18,
+    "imagen": "https://i.ibb.co/X8hNdmW/madera18.jpg",
+    "descripcion": "Color blanco crema, semidura. Su uso se ve generalmente en puertas, ventanas, estantes y repisas.",
+    "titulo": "Petiribi"
+  }
+]

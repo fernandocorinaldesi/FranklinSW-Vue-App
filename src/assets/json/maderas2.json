@@ -1,0 +1,38 @@
+[
+  {
+    "id": 7,
+    "imagen": "https://i.ibb.co/ccnzmRy/madera2.jpg",
+    "descripcion": "Es una madera blanda de tono claro blanco cremoso y sus vetas pueden variar de color marrón amarillento a verde oliva. Su mayor utilidad es en sillas, molduras y muebles en general.",
+    "titulo": "Alamo"
+  },
+  {
+    "id": 8,
+    "imagen": "https://i.ibb.co/WkrLp8m/madera7.jpg",
+    "descripcion": "Color desde el naranja con tonos rosas a un marrón rojizo. Madera blanda utilizada principalmente en chapas de madera y tableros contrachapados.",
+    "titulo": "Paraiso"
+  },
+  {
+    "id": 9,
+    "imagen": "https://i.ibb.co/jZbp5Wx/madera9.jpg",
+    "descripcion": "De color marrón pálido, casi amarillo y sus vetas color claro o gris pálido. Es una madera semidura de gran resistencia, apta para exteriores. Rostrata: Madera dura de color blanco crema y castaño rojizo De gran utilidad en carpintería tanto de interior como de exterior.",
+    "titulo": "Eucalipto"
+  },
+  {
+    "id": 10,
+    "imagen": "https://i.ibb.co/MDtxHkN/madera10.jpg",
+    "descripcion": "Madera blanda, blanco mate y veteado leve. Utilizada generalmente en mubleria y techos.",
+    "titulo": "Pino Parana"
+  },
+  {
+    "id": 11,
+    "imagen": "https://i.ibb.co/rGSt5H5/madera11.jpg",
+    "descripcion": "Madera dura, pesada, color marrón claro a oscuro, a veces con tonos verdes y de color muy agradable y caracteristico. De gran utilidad en pisos y escalones en eterior, tambien utilizada en estantes repisas y mesas.",
+    "titulo": "Incienso"
+  },
+  {
+    "id": 12,
+    "imagen": "https://i.ibb.co/G05HZ6Y/madera12.jpg",
+    "descripcion": "De color marrón claro a color chocolate oscuro, sus vetas pueden tener tonalidades grisáceas e incluso amarillas. Madera semipesada, utilizada en la fabricación de mobiliario de calidad y ebanistería, suelos y Carpintería de interior",
+    "titulo": "Nogal"
+  }
+]

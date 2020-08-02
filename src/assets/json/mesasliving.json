@@ -1,0 +1,134 @@
+[
+    {
+      "id": 1,
+      "imagen": "https://i.ibb.co/F7wN9vx/patasliving1.jpg",
+      "descripcion": "Estas patas a 45° en hierro estructral de 50x50 complementan perfectamente con la madera trabajada por Franklin, logrando un diseño novedos y solido.",
+       "precio": "$12000"
+    },
+    {
+      "id": 2,
+      "imagen": "https://i.ibb.co/WK8tRbF/patasliving2.jpg",
+      "descripcion": "El estilo limpio y fresco que logran estas patas lucen a la perfeccion cualquier eleccion de madera para una mesa de living perfecta.",
+      "precio": "$11000"
+    },
+    {
+      "id": 3,
+      "imagen": "https://i.ibb.co/HHZ48Sc/patasliving3.jpg",
+      "descripcion": "Con estas patas en cruz podemos lucir una mesa de quincho con aspecto rigido y unico donde la estructura y la madera sean una vista fundamental en el salon.",
+      "precio": "$12000"
+    },
+    {
+      "id": 4,
+      "imagen": "https://i.ibb.co/jTCFTyq/patasliving4.jpg",
+      "descripcion": "Diseño de patas en V con hierro estructural de 50x50 se deja ver un diseño poco comun para living.",     
+      "precio": "$10500"
+    },
+    {
+      "id": 5,
+      "imagen": "https://i.ibb.co/h15gQRK/patasliving5.jpg",
+      "descripcion": "Este diseño con planchuelas en angulo da un aspecto solido a una mesa vintage industrial dejando lucir cualquier madera de nuestro catalogo.",
+      "precio": "$900"
+    },
+    {
+      "id": 6,
+      "imagen": "https://i.ibb.co/NKPKwPy/patasliving6.jpg",
+      "descripcion": "Especal diseño en cruz que se ubica como mesa de living o quincho que llama la atencion de todos, algo de lo que Franklin se especializa para creaer ambientes con estios a tu medida.",
+      "precio": "$10500"
+    },
+    {
+        "id": 7,
+        "imagen": "https://i.ibb.co/VLDYyXK/patasliving7.jpg",
+        "descripcion": "Este sencillo diseño para un living al mejor estilo minimalista con el toque elegante de Franklin, en hierro estructural de 60x30.",
+         "precio": "$11000"
+      },
+      {
+        "id": 8,
+        "imagen": "https://i.ibb.co/yWWS0nt/patasliving8.jpg",
+        "descripcion": "El diseño industrial de estas patas hacen que las maderas que trabajamos en Franklin se luzcan logran un estilo cargado de diseño.",
+        "precio": "$13000"
+      },
+      {
+        "id": 9,
+        "imagen": "https://i.ibb.co/8YRhdgP/patasliving9.jpg",
+        "descripcion": "Diseño sencillo en angulo con hierros de 60x30 para lograr espacios amplios.",
+        "precio": "$10500"
+      },
+      {
+        "id": 10,
+        "imagen": "https://i.ibb.co/P1FvxZ3/patasliving10.jpg",
+        "descripcion": "Estas patas con diseño en W toman el estilo moderno sumando a la madera la lucidez que necesita un living",
+        "precio": "$13000"
+      },
+      {
+        "id": 11,
+        "imagen": "https://i.ibb.co/8dT35m1/patasliving11a.jpg",
+        "descripcion": "Patas diseñadas en angulo para lograr estabilidad y sencillez, con hierros de 50x50 dan a la estructura firmeza y rigidez.",
+        "precio": "$11000"
+      },
+      {
+        "id": 12,
+        "imagen": "https://i.ibb.co/ypHjfck/patasliving11b.jpg",
+        "descripcion": "Patas diseñadas en angulo para lograr estabilidad y sencillez, con hierros de 50x50 dan a la estructura firmeza y rigidez.",
+        "precio": "$11000"
+      },
+      {
+        "id": 13,
+        "imagen": "https://i.ibb.co/Lz5xLb8/patasliving12.jpg",
+        "descripcion": "Calsico dieño de patas para mesa ratona o de living en hierro de 70x30 en angulos rectos haciendo que tome el aspecto de una pieza solida y de diseño que buscamos en Franklin.",
+         "precio": "$11000"
+      },
+      {
+        "id": 14,
+        "imagen": "https://i.ibb.co/PrHqb2p/patasliving13.jpg",
+        "descripcion": "Diseño en planchuela para dar una estructura con opciones para living o quincho por su aspecto natural.",
+        "precio": "$11000"
+      },
+      {
+        "id": 15,
+        "imagen": "https://i.ibb.co/2SQMLVT/patasliving14.jpg",
+        "descripcion": "Sin dudas un diseño industrial en hierro estructural de 50x50 para dar rigidez a una mesa que busca sorprender por el aspecto moderno.",
+        "precio": "$12000"
+      },
+      {
+        "id": 16,
+        "imagen": "https://i.ibb.co/GFMp5tz/patasliving15.jpg",
+        "descripcion": "Estas patas de diseño moderno dan un estilo y estabilidad al living.",
+        "precio": "$11000"
+      },
+      {
+        "id": 17,
+        "imagen": "https://i.ibb.co/WGthfVP/patasliving16.jpg",
+        "descripcion": "Patas en planchuela que junto con nuestros diseños similares forman la linea entre el pensamiento de liviandad y moodernidad que en Franklin queremos generar.",
+        "precio": "$9500"
+      },
+      {
+        "id": 18,
+        "imagen": "https://i.ibb.co/CB98Cx5/patasliving17.jpg",
+        "descripcion": "En hierro estructural de 70x30 estas patas en angulo de estilo industrial son perfectas para mesas de quincho.",
+        "precio": "$10000"
+      },
+      {
+        "id": 19,
+        "imagen": "https://i.ibb.co/FVySL0y/patasliving18.jpg",
+        "descripcion": "Un diseño mas en planchuela para un living minimalista nos trae modernidad y luz.",
+        "precio": "$9500"
+      },
+      {
+        "id": 20,
+        "imagen": "https://i.ibb.co/RDqZdw6/patasliving19.jpg",
+        "descripcion": "Diseño W con planchuelas que traen modernidad al salon.",
+        "precio": "$10000"
+      },
+      {
+        "id": 21,
+        "imagen": "https://i.ibb.co/6FZHyZh/patasliving20.jpg",
+        "descripcion": "Este diseño en cruz con hierros de 40x40 se conjugan con cualquier madera de nuestro catalago generando estilo vintage.",
+        "precio": "$10500"
+      },
+      {
+        "id": 22,
+        "imagen": "https://i.ibb.co/Wf9yr4J/patasliving21.jpg",
+        "descripcion": "Estas patas al mejor estilo minimalista son las mas sencillas y las que se adaptan a cualquier espacio, sea liiving sala de estudio o cocina.",
+        "precio": "$7000"
+      }
+  ]

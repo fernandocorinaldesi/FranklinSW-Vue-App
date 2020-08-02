@@ -1,0 +1,26 @@
+[
+  {
+    "id": 19,
+    "imagen": "https://i.ibb.co/9bjtTPM/madera19.jpg",
+    "descripcion": "Se destaca por su uso en exteriores. Madera semidura de color amarillo claro, presenta tonos marrones y dorados.",
+    "titulo": "Teca"
+  },
+  {
+    "id": 20,
+    "imagen": "https://i.ibb.co/6rK76n8/madera20.jpg",
+    "descripcion": "Madera blanda, de color castaño amarillento a ocre. Con utilidad para la fabricación de muebles, revestimientos y carpintería en general.",
+    "titulo": "Cerejeira"
+  },
+  {
+    "id": 21,
+    "imagen": "https://i.ibb.co/fNRJm7B/madera21.jpg",
+    "descripcion": " Con colores que van de un marrón amarillento a uno oscuro, muy dura, usada en la fabricación de embarcaciones y en carpinteria de interior y exterior.",
+    "titulo": "Lapacho"
+  },
+  {
+    "id": 22,
+    "imagen": "https://i.ibb.co/mqm6Bjp/madera22.jpg",
+    "descripcion": "Con un color ocre rosado, colorado oscuro, muy dura. Excelente para exteriores.",
+    "titulo": "Anchico"
+  }
+]

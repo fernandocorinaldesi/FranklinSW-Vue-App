@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "imagen": "https://i.ibb.co/hfFWhqB/patas1.jpg",
+    "descripcion": "Diseño con hierro estructuralde 100x30 entre dos tablones. Una pata que sin duda no pasa desapercibida en el centro de la sala de estar.",
+     "precio": "$10000"
+  },
+  {
+    "id": 2,
+    "imagen": "https://i.ibb.co/ZGG519S/patas2.jpg",
+    "descripcion": "Con un marco en los bordes este diseño en hierro estructural de 70x30 soporta hasta cuatro tablones de madera, siendo un diiseño clasico que nunca pasa de moda.",
+    "precio": "$8000"
+  },
+  {
+    "id": 3,
+    "imagen": "https://i.ibb.co/qsHw4ms/patas3.jpg",
+    "descripcion": "Estructura diseñada como marco para la madera y cables de acero que la hacen lucir como un diseño vintage. Encontrando la impronta que en Franklin buscamos.",
+    "precio": "$8500"
+  },
+  {
+    "id": 4,
+    "imagen": "https://i.ibb.co/44dWL7J/patas4.jpg",
+    "descripcion": "Un diseño simple con hiero de 40x40 ideal para tablones de madera que se luzcan como centro de sala de estar",
+    "precio": "$8500"
+  },
+  {
+    "id": 5,
+    "imagen": "https://i.ibb.co/CH2MHT8/patas5.jpg",
+    "descripcion": "Novedoso diseño realizado de planchuela rigida, creado para lograr un efecto de suspension que seguro sera un tema de conversacion.",
+    "precio": "$6500"
+  },
+  {
+    "id": 6,
+    "imagen": "https://i.ibb.co/vhp3Dym/patas6.jpg",
+    "descripcion": "Calsico dieño de patas para mesa ratona o de living en hierro de 70x30 en angulos rectos haciendo que tome el aspecto de una pieza solida y de diseño que buscamos en Franklin.",
+    "precio": "$8000"
+  }
+]

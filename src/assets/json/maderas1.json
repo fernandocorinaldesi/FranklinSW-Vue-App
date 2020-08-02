@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "imagen": "https://i.ibb.co/WBBfbMj/madera1.jpg",
+      "descripcion": "Madera liviana y blanda, de color castaño oscuro, con suaves vetas. Muy atractiva en el sector de la construcción, mueblería, acabados interiores y exteriores y carpintería engeneral.",
+      "titulo" :"Laurel"
+    },
+    {
+      "id": 2,
+      "imagen": "https://i.ibb.co/ccnzmRy/madera2.jpg",
+      "descripcion": "Textura fina con veteado profundo de blanco a cremoso. Madera dura semipesada, por su particular y exótica belleza nunca pasa desapercibida. Actualmente utilizada en la decoración de interiores y revestimientos para exterior",
+      "titulo" :"Guayubira"
+    },
+    {
+      "id": 3,
+      "imagen": "https://i.ibb.co/4YGVXmx/madera3.jpg",
+      "descripcion": "De color amarillo pálido a marrón, con bonitas tonalidades y veteado, semidura y durable. Se utiliza en mobiliario, carpintería de interior y exterior,  postes, vallados y embarcaciones.",
+      "titulo" :"Cipres"
+    },
+    {
+      "id": 4,
+      "imagen": "https://i.ibb.co/4PCXkdf/madera4.jpg",
+      "descripcion": "El color de la madera es esencialmente claro. Es pricipalmente utilizado en mobiliario de interior. En algún caso también de exterior. Carpintería y revestimientos de interior. tambien en la fabricación de vehículos.",
+      "titulo" :"Fresno"
+    },
+    {
+      "id": 5,
+      "imagen": "https://i.ibb.co/1nFFVVK/madera5.jpg",
+      "descripcion": "Con un característico coloreado oscuro, es una madera semidura utilizada en muebles, ebanisteria, pisos y en carpinteria de interior y exterior.",
+      "titulo" :"Wengue"
+    },
+    {
+      "id": 6,
+      "imagen": "https://i.ibb.co/gWRY1S5/madera6.jpg",
+      "descripcion": "Blanco: Color crema y marron palido, utilidad en muebles finos de interior. Rojo: De color marrón claro con ligeras líneas rojizas. Utilizado en muebles rústicos de interior y exterior. Europeo: del amarillo claro hasta el marrón, utilidad en muebles rústicos de interior y exterior.",
+      "titulo" :"Roble"
+    }
+]
