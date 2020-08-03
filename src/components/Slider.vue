@@ -16,7 +16,7 @@
           <div class="caption animationX">
             <h1>{{ item.titulo1 }}</h1>
             <h1>{{ item.titulo2 }}</h1>
-            <b-button size="lg" pill variant="outline-warning">{{ item.button }}</b-button>
+            <b-button size="md" pill variant="outline-warning">{{ item.button }}</b-button>
           </div>
         </b-carousel-slide>
       </div>
@@ -70,6 +70,17 @@ h1 {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 500px){
+.caption {
+  margin-bottom: 0;
+  margin-top: 15% ;
+  
+}
+h1{
+  font-size: 15px ;
+}
+}
+
 /* .carousel-container {
    border: 2px solid #f8cb3f;
 } */
@@ -108,15 +119,7 @@ h1 {
   -o-animation: fadeIn2 ease 3s;
   -ms-animation: fadeIn2 ease 3s;
 }
-@media only screen and (max-width: 500px){
-.caption {
-  margin-bottom: 0;
-  margin-top: 10%;
-}
-h1{
-  font-size: 20px ;
-}
-}
+
 
 
 /* @-moz-keyframes fadeIn {

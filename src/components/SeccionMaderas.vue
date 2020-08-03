@@ -19,8 +19,8 @@
        </div>
         <div class="contenido">
           <v-card max-width="600" max-height="600" class="mx-auto" color="#ffffff" light>
-            <div class="d-flex ">
-              <div>
+            <div class="inner-card">
+              <div class="inner-text">
                 <v-card-title class="headline"></v-card-title>
                 <v-card-subtitle v-text="elegido.descripcion"></v-card-subtitle>
               </div>
@@ -79,6 +79,10 @@ export default {
 </script>
 
 <style scoped>
+.inner-card{
+  display: flex;
+    
+}
 .medidas{
   height: 500px;
   overflow: scroll;
@@ -94,9 +98,8 @@ export default {
   margin-left: 10%;
   margin-top: 5%;
 }
-.descripcion {
-  width: 80%;
-}
+
+
 /* -------------------------------------- */
 /* rectangle  list style                  */
 
@@ -181,4 +184,22 @@ export default {
 }
 
 /* -------------------------------------- */
+@media only screen and (max-width: 500px){
+.medidas{
+  height: 250px;
+}
+.contenido{
+  width: 70%;
+}
+.v-card__subtitle, .v-card__text{
+  font-size: 14px;
+  font-weight: bold;
+}
+.inner-card{
+  flex-wrap: wrap;
+}
+.inner-text{
+  margin-left: 20%;
+ }
+}
 </style>
