@@ -199,7 +199,12 @@ export default {
   flex-wrap: wrap;
 }
 .inner-text{
-  margin-left: 20%;
+  margin-left: 10%;
  }
+.v-avatar{
+  height: 250px !important; min-width: 250px !important; width: 250px !important;
+
+}
+ 
 }
 </style>
