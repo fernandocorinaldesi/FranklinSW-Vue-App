@@ -78,4 +78,13 @@ export default {
   background-color: #4caf50 !important;
   border-color: #4caf50 !important;
 }
+@media only screen and (max-width: 500px){
+  #form-container {
+  width: 80% !important;
+  
+}
+.title h2{
+  font-size: 26px;
+}
+}
 </style>
