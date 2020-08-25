@@ -16,7 +16,7 @@
           <div class="caption animationX">
             <h1>{{ item.titulo1 }}</h1>
             <h1>{{ item.titulo2 }}</h1>
-            <b-button size="md" pill variant="outline-warning">{{ item.button }}</b-button>
+            <b-button :href="`${item.ref}`" size="md" pill variant="outline-warning">{{ item.button }}</b-button>
           </div>
         </b-carousel-slide>
       </div>
@@ -69,6 +69,12 @@ h1 {
   color: rgb(255, 255, 255);
   font-weight: bold;
 }
+.btn-outline-warning {
+    color: #ffc107 !important;
+}
+.btn-outline-warning:hover {
+    color:black !important;
+ }
 
 @media only screen and (max-width: 500px){
 .caption {

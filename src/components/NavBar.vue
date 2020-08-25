@@ -6,10 +6,10 @@
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="mr-auto">
         <b-nav-item active href="#">Inicio</b-nav-item>
-        <b-nav-item href="#">Acerca de</b-nav-item>
-        <b-nav-item href="#">Productos</b-nav-item>
+        <b-nav-item href="#acerca">Acerca de</b-nav-item>
+        <b-nav-item href="#productos">Productos</b-nav-item>
         <b-nav-item href="#">Servicios</b-nav-item>
-        <b-nav-item href="#">Contacto</b-nav-item>
+        <b-nav-item href="#contacto">Contacto</b-nav-item>
        <b-button variant="success">Cotizador</b-button>
       </b-navbar-nav>
       <!-- Right aligned nav items -->

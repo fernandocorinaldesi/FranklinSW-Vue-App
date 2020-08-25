@@ -2,13 +2,13 @@
   <v-app id="app">
     <NavBar />
     <Slider />
-    <AboutCard />
-    <SeccionMesa />
+    <AboutCard id="acerca"/>
+    <SeccionMesa id="productos"/>
     <v-divider></v-divider>
     <SeccionMaderas />
     <v-divider></v-divider>
-    <ContactForm />
-    <Footer />
+    <ContactForm id="contacto" />
+    <Footer ref="footer"/>
   </v-app>
 </template>
 
@@ -37,4 +37,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+*{
+  scroll-behavior: smooth;
+}
+</style>
