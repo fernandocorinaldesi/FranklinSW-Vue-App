@@ -13,9 +13,9 @@ import mesasratonas from "@/assets/json/mesasratonas.json";
 import mesasliving from "@/assets/json/mesasliving.json";
 import medidasliving from "@/assets/json/medidasliving.json";
 import medidasratonas from "@/assets/json/medidasratonas.json";
-import MesaBase from "./MesasBase"
-import SeccionMesasDetalle from "./DetalleBase";
-import SeccionMesasTitulo from "./TituloBase"
+import MesaBase from "../base/MesasBase"
+import SeccionMesasDetalle from "../base/DetalleBase";
+import SeccionMesasTitulo from "../base/TituloBase"
 export default {
  name:"SeccionMesas",
  data() {

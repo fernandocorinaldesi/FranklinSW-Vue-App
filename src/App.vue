@@ -13,12 +13,12 @@
 </template>
 
 <script>
-import Footer from "./components/Footer";
+import Footer from "./components/layout/Footer";
 import Slider from "./components/Slider";
-import AboutCard from "./components/SeccionAbout";
-import SeccionMesa from "./components/SeccionMesas";
-import SeccionMaderas from "./components/SeccionMaderas";
-import NavBar from "./components/NavBar";
+import AboutCard from "./components/sections/SeccionAbout";
+import SeccionMesa from "./components/sections/SeccionMesas";
+import SeccionMaderas from "./components/sections/SeccionMaderas";
+import NavBar from "./components/layout/NavBar";
 import ContactForm from "./components/ContactForm";
 //import Header from './components/HeaderSlider'
 
