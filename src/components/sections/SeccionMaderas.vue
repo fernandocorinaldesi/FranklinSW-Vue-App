@@ -38,7 +38,7 @@
 <script>
 // import axios from "axios";
 import maderas from "@/assets/json/maderas.json";
-import SeccionMaderasTitulo from "./TituloBase";
+import SeccionMaderasTitulo from "../base/TituloBase";
 
 
 export default {

@@ -6,10 +6,10 @@
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="mr-auto">
         <b-nav-item active href="#">Inicio</b-nav-item>
-        <b-nav-item href="#">Acerca de</b-nav-item>
-        <b-nav-item href="#">Productos</b-nav-item>
+        <b-nav-item href="#acerca">Acerca de</b-nav-item>
+        <b-nav-item href="#productos">Productos</b-nav-item>
         <b-nav-item href="#">Servicios</b-nav-item>
-        <b-nav-item href="#">Contacto</b-nav-item>
+        <b-nav-item href="#contacto">Contacto</b-nav-item>
        <b-button variant="success">Cotizador</b-button>
       </b-navbar-nav>
       <!-- Right aligned nav items -->
@@ -17,7 +17,7 @@
         <div class="social-links ml-auto">
           <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
           <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-          <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.instagram.com/franklin.snw/" class="instagram"><i class="fa fa-instagram"></i></a>
           <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
           <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
         </div>

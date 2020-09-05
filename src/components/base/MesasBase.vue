@@ -2,7 +2,7 @@
   <v-app id="inspire">
   <b-card-group deck >
     <v-hover v-slot:default="{ hover }" v-for="item in datamesa" v-bind:key="item.id">
-      <v-card  class="mr-10 ml-16 mb-16 " color="grey lighten-4" max-width="300">
+      <v-card  class="mr-16 ml-16 mb-16 " color="grey lighten-4" max-width="300">
         <v-img :cover="true" :src="`${item.imagen}`">
           <v-expand-transition>
             <div v-if="hover" class="d-flex transition-fast-in-fast-out green darken-2 v-card--reveal display-3 white--text" style="height: 100%;">
