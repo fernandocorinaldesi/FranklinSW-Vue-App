@@ -20,11 +20,11 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Contactanos</h4>
             <p>
-              Primera junta 648 <br />
-              Buenos Aires, CP1663<br />
+              <!-- Primera junta 648 <br /> -->
+              CABA<br />
               Argentina <br />
-              <strong>Telefono:</strong> 11-2829-6699<br />
-              <strong>Email:</strong> fernandoCorinaldesi@hotmail.com<br />
+              <strong>Telefono:</strong>11 3356-9713<br />
+              <strong>Email:</strong>fetter_ilf@live.com.ar<br />
             </p>
             <div class="social-links">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
