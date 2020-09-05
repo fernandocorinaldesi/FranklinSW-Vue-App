@@ -2,7 +2,7 @@
   <div class="carousel-container">
     <b-carousel
       id="carousel-1"
-      :interval="3000"
+      :interval="5000"
       controls
       indicators
       background="#ababab"
@@ -13,10 +13,26 @@
       <!-- Text slides with image -->
       <div v-for="item in data" v-bind:key="item.id">
         <b-carousel-slide :img-src="`${item.imagen}`" class="img-responsive">
-          <div class="caption animationX">
-            <h1>{{ item.titulo1 }}</h1>
-            <h1>{{ item.titulo2 }}</h1>
-            <b-button :href="`${item.ref}`" size="md" pill variant="outline-warning">{{ item.button }}</b-button>
+          <div v-if="item.id !== 5" class="caption">
+            <div class="animationX">
+              <h1>{{ item.titulo1 }}</h1>
+              <h1>{{ item.titulo2 }}</h1>
+            </div>
+            <div>
+              <b-button class="animationY" :href="`${item.ref}`" size="md" pill variant="outline-warning">{{ item.button }}</b-button>
+            </div>
+          </div>
+          <div v-else>
+            <div class="d-flex flex-column contactos animationXb">
+              <div><i class="fa fa-whatsapp mr-2 mb-2">{{item.titulo1}}</i></div>
+              <div><i class="fa fa-instagram mr-2 mb-2">{{item.titulo2}}</i></div>
+              <div><i class="far fa-envelope mr-2 mb-2">{{item.titulo3}}</i></div>
+              <div><i class="fas fa-user-clock mr-2 mb-2">{{item.titulo4}}</i></div>
+              <!-- <h1><div class="fa fa-whatsapp mr-2 mb-2"></div>{{item.titulo1}}</h1>
+              <h1><div class="fa fa-instagram mr-2 mb-2"></div>{{item.titulo2}}</h1>
+              <h1><div class="far fa-envelope mr-2 mb-2"></div>{{item.titulo3}}</h1>
+              <h1><div class="fas fa-user-clock mr-2"></div>{{item.titulo4}}</h1> -->
+            </div>
           </div>
         </b-carousel-slide>
       </div>
@@ -55,13 +71,21 @@ export default {
     },
     onSlideEnd() {
       this.sliding = false;
-    }
+    },
   },
 };
 </script>
 <style scoped>
 .caption {
   margin-bottom: 20%;
+}
+.contactos{
+   margin-bottom: 20%;
+   margin-right: 30%;
+   font-size: 30px;
+   text-shadow: 0px 0px 4px rgba(0, 0, 0, 1);
+  
+  font-weight: bold;
 }
 h1 {
   font-size: 30px;
@@ -70,30 +94,51 @@ h1 {
   font-weight: bold;
 }
 .btn-outline-warning {
-    color: #ffc107 !important;
+  color: #ffc107 !important;
 }
 .btn-outline-warning:hover {
-    color:black !important;
- }
-
-@media only screen and (max-width: 500px){
-.caption {
-  margin-bottom: 0;
-  margin-top: 15% ;
-  
+  color: black !important;
 }
-h1{
-  font-size: 15px ;
+
+@media only screen and (max-width: 500px) {
+  .caption {
+    margin-bottom: 0;
+    margin-top: 15%;
+  }
+  h1 {
+    font-size: 15px;
+  }
+   .contactos {
+    margin-bottom: 0;
+    margin-top: 15%;
+    font-size: 15px;
 }
 }
 
 /* .carousel-container {
    border: 2px solid #f8cb3f;
 } */
+@keyframes fadeIn3 {
+  0% {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.animationXb {
+  animation: fadeIn3 ease 4s;
+  -webkit-animation: fadeIn3 ease 4s;
+  -moz-animation: fadeIn3 ease 4s;
+  -o-animation: fadeIn3 ease 4s;
+  -ms-animation: fadeIn3 ease 4s;
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translateX(-200px);
+    transform: translateX(-500px);
   }
   100% {
     opacity: 1;
@@ -110,7 +155,7 @@ h1{
 @keyframes fadeIn2 {
   0% {
     opacity: 0;
-    transform: translateY(200px);
+    transform: translateY(500px);
   }
   100% {
     opacity: 1;
@@ -125,8 +170,6 @@ h1{
   -o-animation: fadeIn2 ease 3s;
   -ms-animation: fadeIn2 ease 3s;
 }
-
-
 
 /* @-moz-keyframes fadeIn {
   0% {

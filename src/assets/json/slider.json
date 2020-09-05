@@ -8,20 +8,13 @@
       "ref": "#acerca"
     },
     {
-      "id": 2,
-      "imagen": "https://i.ibb.co/hL7dc10/m3.jpg",
-      "titulo1": "CONOCES NUESTROS",
-      "titulo2": "SERVICIOS",
-      "button": "Contactanos",
-      "ref": "#contacto"
-    },
-    {
-      "id": 3,
-      "imagen": "https://i.ibb.co/kQjPGBG/m4.jpg",
-      "titulo1": "CONOCE NUESTRO",
-      "titulo2": "COTIZADOR ONLINE(proximamente)",
-      "button": "Click aqui",
-      "ref": "#"
+      "id": 5,
+      "imagen": "https://i.ibb.co/W3Snhvt/contactus2.jpg",
+      "titulo1": "Wsp: 11-2829-6699",
+      "titulo2": "Inst: franklin.snw",
+      "titulo3": "Mail : fetter_ilf@live.com.ar",
+      "titulo4": "Horarios: 7 a 18 hs"
+           
     },
     {
       "id": 4,
@@ -30,5 +23,14 @@
       "titulo2": "PRODUCTOS",
       "button": "Click aqui",
       "ref": "#productos"
+    },
+    {
+      "id": 3,
+      "imagen": "https://i.ibb.co/kQjPGBG/m4.jpg",
+      "titulo1": "CONOCE NUESTRO",
+      "titulo2": "COTIZADOR ONLINE(proximamente)",
+      "button": "Click aqui",
+      "ref": "#"
     }
+       
  ]

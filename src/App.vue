@@ -8,7 +8,7 @@
     <SeccionMaderas />
     <v-divider></v-divider>
     <ContactForm id="contacto" />
-    <Footer ref="footer"/>
+    <Footer />
   </v-app>
 </template>
 
