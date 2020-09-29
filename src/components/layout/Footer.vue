@@ -11,10 +11,10 @@
             <h4>Enlaces utiles</h4>
             <ul>
               <li><a href="#">Inicio</a></li>
-              <li><a href="#">Acerca de</a></li>
-              <li><a href="#">Productos</a></li>
+              <li><a href="#acerca">Acerca de</a></li>
+              <li><a href="#productos">Productos</a></li>
               <li><a href="#">Servicios</a></li>
-              <li><a href="#">Contacto</a></li>
+              <li><a href="#contacto">Contacto</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 footer-contact">
@@ -29,9 +29,9 @@
             <div class="social-links">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.instagram.com/franklin.snw/" class="instagram"><i class="fa fa-instagram"></i></a>
               <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="https://www.instagram.com/franklin.snw/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
         
             </div>
           </div>
