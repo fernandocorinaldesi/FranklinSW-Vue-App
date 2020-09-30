@@ -1,24 +1,17 @@
-# web-maderas-bootstrap-vue
+# FranklinSW
 
-## Project setup
-```
-npm install
-```
+### Description
+Este es el codigo fuente de una web desarrollada para el cliente FranklinSW. Se realizo el diseño completo desde cero utilizando vue.js
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Tecnologias y dependencias
+* Vue.js
+* Bootstrap Vue
+* Vuetify
+* fontawesome
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Screenshot
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![screenshoot](https://i.ibb.co/ww1qM0C/franklin.jpg)
+
+
