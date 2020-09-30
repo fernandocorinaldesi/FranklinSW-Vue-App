@@ -5,6 +5,7 @@
       :interval="5000"
       controls
       indicators
+      no-hover-pause
       background="#ababab"
       style="text-shadow: 1px 1px 2px #333;"
       @sliding-start="onSlideStart"
