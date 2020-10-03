@@ -1,5 +1,9 @@
 <?php
-header("Access-Control-Allow-Origin: *");
+header('Access-Control-Allow-Origin: your origin');
+header('Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE, OPTIONS');
+header('Access-Control-Allow-Credentials: true');
+header('Access-Control-Max-Age:86400');
+header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token,  Accept, Authorization, X-Requested-With');
 $post = file_get_contents('php://input') ?? $_POST;
 
 // decode the JSON data
