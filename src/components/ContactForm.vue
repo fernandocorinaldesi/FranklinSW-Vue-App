@@ -56,11 +56,10 @@
 </template>
 
 <script>
-import axios from "axios";
+let emailjs = require('emailjs-com');
 export default {
   data: () => ({
     snackbar: false,
-    res: {},
     text: "Mensaje enviado con éxito",
     valid: true,
     name: "",
@@ -79,10 +78,13 @@ export default {
     select: null,
     lazy: false,
   }),
+  created(){
+  emailjs.init("user_H85pcS1wXNXie0zjrNN9l");
+},
   methods: {
     validate() {
       // this.$refs.form.validate();
-      this.fetchData()
+      this.sendEmail()
       this.snackbar = true;
     },
     reset() {
@@ -91,15 +93,14 @@ export default {
     resetValidation() {
       this.$refs.form.resetValidation();
     },
-    fetchData() {
-       axios.post('contact.php',{
-      'name': this.name,
-      'email': this.email,
-      'mensaje': this.mensaje,
-      }).then((response) => {
-        this.res = response;
-      });
-    },
+    sendEmail () {
+      emailjs.send('service_m78l7ou', 'template_vhmf57l',{email:this.email,name: this.name, subject: "FranklinSw consultas", text: this.mensaje})
+        .then((result) => {
+            console.log('SUCCESS!', result.status, result.text);
+        }, (error) => {
+            console.log('FAILED...', error);
+        });
+    }
   },
 };
 </script>
