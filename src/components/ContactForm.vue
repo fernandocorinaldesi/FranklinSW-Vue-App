@@ -1,22 +1,39 @@
 <template>
   <v-container fluid>
     <div class="title">
-      <h2>
-        ¿En qué podemos ayudarte?
-      </h2>
-      <h2>
-        ¡Estamos para asesorarte!
-      </h2>
+      <h2>¿En qué podemos ayudarte?</h2>
+      <h2>¡Estamos para asesorarte!</h2>
     </div>
     <v-row id="form-container">
       <v-col cols="12">
         <v-form ref="form" v-model="valid" :lazy-validation="lazy">
-          <v-text-field v-model="name" :counter="20" :rules="nameRules" label="Name" required></v-text-field>
+          <v-text-field
+            v-model="name"
+            :counter="20"
+            :rules="nameRules"
+            label="Name"
+            required
+          ></v-text-field>
 
-          <v-text-field v-model="email" :rules="emailRules" label="E-mail" required></v-text-field>
-          <v-textarea v-model="mensaje" :rules="mensajeRules" label="Mensaje" required></v-textarea>
+          <v-text-field
+            v-model="email"
+            :rules="emailRules"
+            label="E-mail"
+            required
+          ></v-text-field>
+          <v-textarea
+            v-model="mensaje"
+            :rules="mensajeRules"
+            label="Mensaje"
+            required
+          ></v-textarea>
 
-          <v-btn :disabled="!valid" color="success" class="mr-4 mt-4" @click="validate">
+          <v-btn
+            :disabled="!valid"
+            color="success"
+            class="mr-4 mt-4"
+            @click="validate"
+          >
             Enviar
           </v-btn>
           <v-btn color="success" class="mr-4 mt-4" @click="reset">
@@ -25,18 +42,39 @@
         </v-form>
       </v-col>
     </v-row>
+    <div class="text-center ma-2">
+      <v-snackbar v-model="snackbar">
+        {{ text }}
+        <template v-slot:action="{ attrs }">
+          <v-btn color="white" text v-bind="attrs" @click="snackbar = false">
+            Cerrar
+          </v-btn>
+        </template>
+      </v-snackbar>
+    </div>
   </v-container>
 </template>
 
 <script>
+import axios from "axios";
 export default {
   data: () => ({
+    snackbar: false,
+    res: {},
+    text: "Mensaje enviado con éxito",
     valid: true,
     name: "",
-    nameRules: [(v) => !!v || "Debe ingresar un nombre", (v) => (v && v.length <= 20) || "El nombre debe tener menos de 20 caracteres"],
+    nameRules: [
+      (v) => !!v || "Debe ingresar un nombre",
+      (v) =>
+        (v && v.length <= 20) || "El nombre debe tener menos de 20 caracteres",
+    ],
     email: "",
-    emailRules: [(v) => !!v || "De ingresar un mail válido", (v) => /.+@.+\..+/.test(v) || "El mail debe ser valido"],
-    mensaje:"",
+    emailRules: [
+      (v) => !!v || "De ingresar un mail válido",
+      (v) => /.+@.+\..+/.test(v) || "El mail debe ser valido",
+    ],
+    mensaje: "",
     mensajeRules: [(v) => !!v || "Debe ingresar un mensaje"],
     select: null,
     lazy: false,
@@ -44,13 +82,23 @@ export default {
   methods: {
     validate() {
       // this.$refs.form.validate();
-      alert("Enviado")
+      this.fetchData()
+      this.snackbar = true;
     },
     reset() {
       this.$refs.form.reset();
     },
     resetValidation() {
       this.$refs.form.resetValidation();
+    },
+    fetchData() {
+       axios.post('contact.php',{
+      'name': this.name,
+      'email': this.email,
+      'mensaje': this.mensaje,
+      }).then((response) => {
+        this.res = response;
+      });
     },
   },
 };
@@ -78,13 +126,12 @@ export default {
   background-color: #4caf50 !important;
   border-color: #4caf50 !important;
 }
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
   #form-container {
-  width: 80% !important;
-  
-}
-.title h2{
-  font-size: 26px;
-}
+    width: 80% !important;
+  }
+  .title h2 {
+    font-size: 26px;
+  }
 }
 </style>
