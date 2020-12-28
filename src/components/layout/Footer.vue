@@ -40,9 +40,9 @@
             <p>
               Si deseas recibir las mejores ofertas de Franklin, ingresa tu casilla de mail y hace click en suscriberme.
             </p>
-            <form action="" method="post">
+            <!-- <form action="" method="post"> -->
             <input type="email" name="email" /><input type="submit" value="Subscribirme" />
-            </form>
+            <!-- </form> -->
           </div>
         </div>
       </div>
